@@ -1,0 +1,5 @@
+#! /bin/bash
+
+dt=$(TZ='Europe/Rome' date '+%b %d (%a) %T')
+
+echo $dt
